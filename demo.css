@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    min-height:70px;
+    padding-top: 30px;
+    background-color: #35424a;
+    color: white;
+    border-bottom: 3px solid red;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container1{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+.navbar{
+    padding-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap:40px;
+    list-style-type:none;
+    text-transform: uppercase;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .col a{
+    color: orangered;
+}
+.navbar a:hover{
+    font-weight: bold;
+    color: aquamarine;
+    background-color: #35424a;
+}
+#showcase{
+    min-height: 400px;
+    background-image: url('img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+#showcase h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+#showcase p{
+    margin-top:10px;
+    font-size: 20px;
+}
+#news{
+    min-height: 70px;
+    background-color: #35424a;
+    color:white;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#email{
+    height: 25px;
+    width: 240px;
+}
+#submit{
+    height: 28px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+#sub{
+    width: 100%;
+    margin-top: 5px;
+    height: 28px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid transparent;
+}
+.box{
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+}
+.box img{
+    width: 90px;
+}
+.article{
+    width: 62%;
+
+}
+.aside{
+    margin-top:10px;
+    width: 35%;
+    background-color: #35424a;
+    color: white; 
+    padding: 5px;
+    height: 50%;
+}
+.aside1{
+    margin-top:10px;
+    width: 25%;
+    background-color: #35424a;
+    color: white; 
+    padding: 10px;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.aside1 form,h2{
+    display: flex;
+    flex-direction: column;
+}
+.aside1 form {
+    width: 90%;
+    
+}
+.line{
+
+    width: 100%;
+}
+
+.dark{
+    margin-top: 5px;
+    background-color: #35424a;
+    color: white;
+     padding: 10px;
+}
+
+.services li{
+    list-style-type: none;
+    background-color: #e6e6e6;
+    border:1px solid #cccccc ;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.services{
+    width: 62%;
+}
+.aside1 label{
+    display: block;
+}
+.aside1 input{
+    height: 28px;
+    width: 100%;
+}
+
+.aside1 #meg{
+    width: 100%;
+    height: 60px;
+
+}
+footer{
+    min-height: 50px;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+section{
+    box-sizing: border-box;
+    padding: 10px;
+}
+@media(max-width:700px){
+    .container1,.container,#boxes .box,.article,.aside,.services,.aside1{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0; 
+    }
+    .aside,.aside1{
+        
+        padding-bottom: 10px;
+    }
+    #showcase h1{
+        font-size: 3em;
+        padding: 0;
+        margin-top: 10px;
+
+    }
+    header{
+        padding-top: 10px;
+    }
+    .navbar{
+        margin-bottom: 10px;
+    }
+    #submit{
+        margin-top: 5px;
+        height: 30px;
+        display: block;
+        width: 250px;
+    }
+    .imp #email{
+        width: 250px;
+        height: 25px;
+    }
+    .let h2{
+        margin-top:5px;
+        margin-bottom: 10px;
+    }
+    #news{
+        padding-top: 10px;
+    }
+    
+}
+

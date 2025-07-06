@@ -5,10 +5,13 @@
 }
 header{
     min-height:70px;
-    padding-top: 30px;
+    padding-top: 20px;
     background-color: #35424a;
     color: white;
     border-bottom: 3px solid red;
+}
+.brand{
+    margin-bottom: 20px;
 }
 .container{
     margin: auto;
@@ -22,13 +25,14 @@ header{
     color: red;
     font-size: 2.5rem;
 }
+
 .container1{
     margin: auto;
     width: 90%;
     overflow: hidden;
 }
 .navbar{
-    padding-top: 10px;
+    margin-top: 20px;
 }
 .navbar ul{
     display: flex;
@@ -43,6 +47,7 @@ header{
 .brand p{
     font-size: 1rem;
     color: rgb(232, 154, 184);
+    
 }
 .navbar .col a{
     color: orangered;
@@ -189,6 +194,7 @@ section{
         text-align: center;
         padding: 0; 
     }
+    
     .navbar{
         margin-top: 10px;
     }
@@ -201,8 +207,13 @@ section{
         margin-top: 10px;
 
     }
+
     header{
         padding-top: 10px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    
     }
     .navbar{
         margin-bottom: 10px;
